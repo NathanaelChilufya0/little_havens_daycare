@@ -3,13 +3,13 @@
 // Change these if your XAMPP/WAMP MySQL uses a different user or password.
 
 const DB_HOST = '127.0.0.1';
-const DB_NAME = 'littlehaven';
+const DB_NAME = 'little_havens_daycare';
 const DB_USER = 'root';
 const DB_PASS = '';
 
 // The folder name under htdocs (XAMPP) or www (WAMP). Used to build links.
-// If you put the project in htdocs/littlehaven, leave this as it is.
-const BASE_URL = '/littlehaven';
+// If you put the project in htdocs/little_havens_daycare, leave this as it is.
+const BASE_URL = '/little_havens_daycare';
 
 date_default_timezone_set('Africa/Lusaka');
 
