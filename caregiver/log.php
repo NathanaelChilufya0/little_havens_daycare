@@ -18,12 +18,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     insert(
         "INSERT INTO care_log
-        (child_id, log_type, details, staff_name, logged_at)
-        VALUES (?,?,?,?,?)",
+        (child_id, log_type, details, staff_id, staff_name, logged_at)
+        VALUES (?,?,?,?,?,?)",
         [
             $childId,
             $_POST['log_type'],
             trim($_POST['details']),
+            $user['id'],
             $user['name'],
             date('Y-m-d H:i:s')
         ]

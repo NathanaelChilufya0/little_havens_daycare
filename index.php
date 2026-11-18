@@ -36,6 +36,7 @@ page_header('Welcome to Little Haven');
       <label for="password">Password</label>
       <input type="password" id="password" name="password" required>
       <p><button class="btn" type="submit">Log in</button></p>
+      <p class="muted">New parent? <a href="<?= e(url('register.php')) ?>">Create an account</a></p>
     </form>
   </div>
 
