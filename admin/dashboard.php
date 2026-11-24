@@ -55,7 +55,7 @@ page_header('Admin overview');
   <div class="card accent">
     <h2>Allergy conflicts on today's menu</h2>
     <?php foreach ($conflicts as $c): ?>
-      <div class="alert-conflict"><?= e($c['child']) ?> is allergic to <?= e(strtoupper($c['allergen'])) ?>. <?= e($c['meal']) ?> contains it.</div>
+      <div class="alert-conflict"><?= e($c['child']) ?> is allergic to <?= e(strtoupper($c['allergen'])) ?>. <?= e($c['meal']) ?> contained in it.</div>
     <?php endforeach; ?>
   </div>
 <?php endif; ?>

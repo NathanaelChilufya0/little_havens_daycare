@@ -22,7 +22,7 @@ $demo = [
     ['Admin',     'admin@littlehaven.test'],
 ];
 
-page_header('Welcome to Little Haven');
+page_header('Welcome to Little Heaven');
 ?>
 <div class="login-wrap">
   <div class="card">

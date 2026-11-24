@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $pdo->commit();
             log_activity('Registered child ' . $name);
-            set_flash($name . ' is registered. Welcome to Little Haven!');
+            set_flash($name . ' is registered. Welcome to Little Heaven!');
             redirect('parent/dashboard.php');
         } catch (Throwable $e) {
             if ($pdo->inTransaction()) {

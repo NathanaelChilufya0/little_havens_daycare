@@ -21,7 +21,7 @@ foreach ($emails as $email) {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Little Haven setup</title>
+<title>Little Heaven setup</title>
 <link rel="stylesheet" href="<?= htmlspecialchars(BASE_URL) ?>/assets/style.css">
 </head>
 <body class="guest">

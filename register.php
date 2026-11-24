@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ]);
         attempt_login($email, $pass);          // logs the new parent straight in
         log_activity('Parent account created');
-        set_flash('Welcome to Little Haven! Now tell us about your child.');
+        set_flash('Welcome to Little Heaven! Now tell us about your child.');
         redirect('parent/register_child.php');
     }
 }
@@ -54,7 +54,7 @@ page_header('Create your parent account');
 ?>
 <div class="login-wrap">
   <div class="card">
-    <h2>Join Little Haven</h2>
+    <h2>Join Little Heaven</h2>
     <?php foreach ($errors as $err): ?>
       <div class="flash flash-error" role="alert"><?= e($err) ?></div>
     <?php endforeach; ?>

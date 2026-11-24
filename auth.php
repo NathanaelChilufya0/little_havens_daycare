@@ -144,14 +144,14 @@ function page_header(string $title): void
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?= e($title) ?> | Little Haven</title>
+<title><?= e($title) ?> | Little Heaven</title>
 <link rel="stylesheet" href="<?= e(url('assets/style.css')) ?>">
 </head>
 <body<?= $u ? ' class="role-' . e($u['role']) . '"' : ' class="guest"' ?>>
 <header class="topbar">
   <a class="brand" href="<?= e($u ? url(role_home($u['role'])) : url('index.php')) ?>">
     <span class="brand-mark" aria-hidden="true">LH</span>
-    <span>Little Haven</span>
+    <span>Little Heaven</span>
   </a>
   <?php if ($u): ?>
   <nav class="nav" aria-label="Main">
@@ -178,7 +178,7 @@ function page_footer(): void
     ?>
 </main>
 <footer class="footer">
-  Little Haven prototype. Technology supports trained staff and does not replace them.
+  Little Heaven prototype. Technology supports trained staff and does not replace them.
   The care summary is rule-based: it never diagnoses, prescribes or suggests doses.
 </footer>
 </body>

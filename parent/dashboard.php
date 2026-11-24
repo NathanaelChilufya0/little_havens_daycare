@@ -71,7 +71,7 @@ page_header('My children');
   <?php foreach ($conflicts as $x): ?>
     <div class="alert-conflict">
       <?= e(first_name($c['name'])) ?> is allergic to <?= e(strtoupper($x['allergen'])) ?>.
-      Today's menu has it in: <?= e($x['meal']) ?>. Staff can see this alert.
+      Today's menu has in it: <?= e($x['meal']) ?>. Staff can see this alert.
     </div>
   <?php endforeach; ?>
 
